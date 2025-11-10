@@ -1,0 +1,36 @@
+:root {
+  --geensnor-font-family: "Work sans", sans-serif;
+  --geensnor-font-family-headings: "Zilla Slab", serif;
+
+  --geensnor-font-size-5xl: 4rem;
+  --geensnor-font-size-4xl: 2.5rem;
+  --geensnor-font-size-3xl: 2.2rem;
+  --geensnor-font-size-2xl: 1.9rem;
+  --geensnor-font-size-xl: 1.6rem;
+  --geensnor-font-size-l: 1.25rem;
+  --geensnor-font-size-m: 1rem;
+  --geensnor-font-size-s: 0.9rem;
+  --geensnor-font-size-xs: 0.8rem;
+  --geensnor-font-size-xxs: 0.7rem;
+
+  --geensnor-font-weight-normal: 400;
+  --geensnor-font-weight-bold: 700;
+
+  --geensnor-line-height: 1.7em;
+
+  --geensnor-letter-spacing-small: -0.8px;
+
+  /* Kleuren */
+  --geensnor-oranje-100: hsl(16, 88%, 54%);
+  --geensnor-blauw-100: rgb(68, 51, 255);
+  --geensnor-zwartisch: rgb(26, 26, 26);
+  --geensnor-grijs-100: grey;
+  --geensnor-grijs-50: rgb(207, 207, 207);
+  --geensnor-grijs-10: #f7f7f9;
+
+  /* Spacing */
+  --geensnor-spacing-m: 0.3rem;
+
+  /* Radius */
+  --geensnor-border-radius: 3px;
+}
