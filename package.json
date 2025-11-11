@@ -13,7 +13,11 @@
   "license": "ISC",
   "author": "geensnor",
   "type": "module",
-  "main": "index.js",
+  "main": "src/tokens.css",
+  "exports": {
+    ".": "./src/tokens.css",
+    "./tokens.css": "./src/tokens.css"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +26,6 @@
     "geensnor"
   ],
   "files": [
-    "index.ts",
-    "src/*"
+    "src/**"
   ]
 }
