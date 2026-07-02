@@ -1,6 +1,6 @@
 {
   "name": "@geensnor/tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Geensnor design tokens",
   "homepage": "https://github.com/geensnor/tokens#readme",
   "bugs": {
@@ -13,9 +13,10 @@
   "license": "ISC",
   "author": "geensnor",
   "type": "module",
-  "main": "src/tokens.css",
   "exports": {
-    ".": "./src/tokens.css",
+    ".": {
+      "style": "./src/tokens.css"
+    },
     "./tokens.css": "./src/tokens.css"
   },
   "scripts": {
